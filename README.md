@@ -15,6 +15,7 @@ Used HTML, JavaScript, jQuery and CSS to build the webpages<br/>
 Upload file and connect with Back-end with AJAX<br/><br/>
 
 ## Japanese learning and teaching websites
+URL: http://blindulo.uusama.com/LearnerPage.html
 Full stack developed full-functional learning and teaching websites for Chinese<br/>
 Designed and developed Frontend of websites such as Calendar, rotated div and scalable sidebar by applying HTML5,CSS3, JavaScript, AJAX, jQuery and Animate intelligently to make UI and UE friendly and integrated<br/>
 Accomplished Backgrounds functions like Date changing, API call and streaming media reading by using Json, PHP, MySQL and Apache<br/><br/>
