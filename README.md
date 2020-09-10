@@ -17,7 +17,7 @@ Used React, node.js, CSS, Bootstrap<br/>
 My code: https://github.com/Blindulo/ProjectsofXiyaLiu/tree/master/Database-System-for-E-Commerce-master/DBProject/src/main/web <br/>
 Used HTML, JavaScript, jQuery and CSS to build the webpages<br/>
 Upload file and connect with Back-end with AJAX<br/>
-![image](https://github.com/yiz132/Database-System-for-E-Commerce/blob/master/DBProject/Screenshots/sort_by_category_AND_price.png)
+![image](https://github.com/Blindulo/ProjectsofXiyaLiu/blob/master/Database-System-for-E-Commerce-master/DBProject/Screenshots/Sort_BY.png)
 <br/><br/><br/>
 ## Japanese learning and teaching websites
 URL: http://blindulo.uusama.com/LearnerPage.html<br/>
