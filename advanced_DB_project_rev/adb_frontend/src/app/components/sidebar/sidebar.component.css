@@ -1,0 +1,12 @@
+.logo{
+    margin:0px;
+    padding:10px 0px;
+}
+.sidebar-wrapper{
+    background-color:#FF8C69;
+    box-shadow: 2px 3px 4px rgba(0,0,0,0.5);
+    width: 80px;
+}
+.logo{
+    background-color:#FF8C69;
+}

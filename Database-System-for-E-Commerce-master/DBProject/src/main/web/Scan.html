@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random</title>
+    <link rel="stylesheet" type="text/css" href="Scan.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <script src="Scan.js"></script>
+</head>
+<body >
+<div class="TopBar" >
+    <div id="LogoDiv" class="LogoDiv"></div>
+<!--    <i class="SearchLogo" id="SearchLogo"></i>-->
+    <input type="text" id="SearchInput" class="SearchInput" onKeyDown="SearchPress()" placeholder="Search key words here" style="width: 700px"></input>
+    <button id="SearchProductButton" onclick="SearchProduct()" style="display: none"></button>
+    <select id="SortCategory" name="Sort"  class="SortDiv" onchange="SearchProduct()" style="left: 880px">
+        <option value ="AllCategories" >All CATEGORIES</option>
+        <option value ="other" >OTHER</option>
+        <option value ="skirt" >SKIRT</option>
+        <option value ="shoes" >SHOES</option>
+        <option value ="pants" >PANTS</option>
+        <option value ="jeans" >JEANS</option>
+        <option value ="sweaters" >SWEATERS</option>
+    </select>
+    <select id="Sort" name="Sort" onchange="SearchProduct()" class="SortDiv">
+        <option value ="SortBy" >SORT BY</option>
+        <option value ="PriceHighToLow">PRICE (HIGH TO LOW)</option>
+        <option value ="PriceLowToHigh">PRICE (LOW TO HIGH)</option>
+    </select>
+    <div id="History" class="BarButton" onclick="HistoryOrder()" style="left:1330px">History</div>
+
+    <div id="Logout" class="BarButton" onclick="LogOut()" style="left:1330px;top:44px;">Logout</div>
+</div>
+<div id="AllProductDiv" class="AllProductDiv">
+<!--<div  class="ProductDiv" onclick="EnterDetail()">-->
+<!--    <div class="ProductPhotoDiv" style="background-image: url(../web/image/sample.jpg)"></div>-->
+<!--    <div class="ProductNameDiv">Product Name</div>-->
+<!--    <div class="ProductPriceDiv">$ 100</div>-->
+<!--</div>-->
+</div>
+</body>
+</html>

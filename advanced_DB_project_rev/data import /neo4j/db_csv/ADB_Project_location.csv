@@ -1,0 +1,166 @@
+location_id,country,locality,market,market_type,currency
+1,Afghanistan,Badakhshan,Fayzabad,Retail,AFN
+2,Afghanistan,Balkh,Mazar,Retail,AFN
+3,Afghanistan,Bamyan,Bamyan,Retail,AFN
+4,Afghanistan,Faryab,Maymana,Retail,AFN
+5,Afghanistan,Hirat,Hirat,Retail,AFN
+6,Afghanistan,Kabul,Kabul,Retail,AFN
+7,Afghanistan,Kandahar,Kandahar,Retail,AFN
+8,Afghanistan,Nangarhar,Jalalabad,Retail,AFN
+9,Afghanistan,Paktya,Gardez,Retail,AFN
+10,Afghanistan,$Daykundi,Nili,Retail,AFN
+11,Afghanistan,Ghor,Ghor,Retail,AFN
+12,Algeria,Alger,Algiers,Retail,DZD
+13,Algeria,Tindouf,Tindouf,Retail,DZD
+14,Algeria,Tindouf,Samara,Retail,DZD
+15,Algeria,Tindouf,Dakhla,Retail,DZD
+16,Algeria,Tindouf,Boujdour,Retail,DZD
+17,Algeria,Tindouf,Auserd,Retail,DZD
+18,Algeria,Tindouf,Layoun,Retail,DZD
+19,Armenia,Yerevan,Yerevan,Retail,AMD
+20,Armenia,Tavush,Gavar,Retail,AMD
+21,Armenia,Lori,Vanadzor,Retail,AMD
+22,Armenia,Tavush,Berd,Retail,AMD
+23,Armenia,Lori,Armavir,Retail,AMD
+24,Bangladesh,Barisal,Barisal Division,Retail,BDT
+25,Bangladesh,Chittagong,Chittagong Division,Retail,BDT
+26,Bangladesh,Dhaka,Dhaka Division,Retail,BDT
+27,Bangladesh,Khulna,Khulna Division,Retail,BDT
+28,Bangladesh,Rajshahi,Rajshahi Division,Retail,BDT
+29,Bangladesh,Sylhet,Sylhet Division,Retail,BDT
+30,Benin,Littoral,Dantokpa,Retail,XOF
+31,Benin,Alibori,Malanville (CBM),Wholesale,XOF
+32,Benin,Alibori,Malanville (CBM),Retail,XOF
+33,Benin,Alibori,Banikoara,Retail,XOF
+34,Benin,Borgou,Sinende,Retail,XOF
+35,Benin,Borgou,Kalale,Retail,XOF
+36,Benin,Borgou,Nikki,Retail,XOF
+37,Benin,Borgou,N'Dali,Retail,XOF
+38,Benin,Borgou,Parakou,Retail,XOF
+39,Benin,Atakora,Kerou,Retail,XOF
+40,Benin,Atakora,Tanguieta,Retail,XOF
+41,Benin,Atakora,Natitingou,Retail,XOF
+42,Benin,Donga,Djougou,Retail,XOF
+43,Benin,Collines,Savalou,Retail,XOF
+44,Benin,Collines,Glazoue,Retail,XOF
+45,Benin,Zou,Bohicon,Retail,XOF
+46,Benin,Plateau,Ketou,Retail,XOF
+47,Benin,Plateau,Pobe,Retail,XOF
+48,Benin,Oueme,Ouando,Retail,XOF
+49,Benin,Mono,Come,Retail,XOF
+50,Benin,Couffo,Azove,Retail,XOF
+51,Bolivia,Chuquisaca,Sucre,Retail,BOB
+52,Bolivia,La Paz,La Paz City,Retail,BOB
+53,Bolivia,Cochabamba,Cochabamba City,Retail,BOB
+54,Bolivia,Oruro,Oruro City,Retail,BOB
+55,Bolivia,Potosi,Potosi,Retail,BOB
+56,Bolivia,Tarija,Tarija City,Retail,BOB
+57,Bolivia,Santa Cruz,Santa Cruz City,Retail,BOB
+58,Bolivia,Beni,Trinidad,Retail,BOB
+59,Bolivia,Pando,Cobija,Retail,BOB
+60,Burkina Faso,Cascades,Banfora,Retail,XOF
+61,Burkina Faso,Plateau Central,Bousse,Retail,XOF
+62,Burkina Faso,Sud-ouest,Diebougou,Retail,XOF
+63,Burkina Faso,Sahel,Djibo,Retail,XOF
+64,Burkina Faso,Sahel,Dori,Retail,XOF
+65,Burkina Faso,Est,Fada N'Gourma,Retail,XOF
+66,Burkina Faso,Sahel,Gorom Gorom,Retail,XOF
+67,Burkina Faso,Nord,Gourcy,Retail,XOF
+68,Burkina Faso,Centre-nord,Kongoussi,Retail,XOF
+69,Burkina Faso,Centre-ouest,Koudougou,Retail,XOF
+70,Burkina Faso,Centre,Ouagadougo (Sankaryare),Retail,XOF
+71,Burkina Faso,Centre-est,Tenkodogo,Retail,XOF
+72,Burkina Faso,Boucle Du Mouhoun,Tougan,Retail,XOF
+73,Burkina Faso,Est,Kantchari (CBM),Wholesale,XOF
+74,Burkina Faso,Est,Namouno (CBM),Wholesale,XOF
+75,Burkina Faso,Centre-est,Pouytenga,Retail,XOF
+76,Burkina Faso,Centre-nord,Kaya,Retail,XOF
+77,Burkina Faso,Centre-ouest,Leo,Retail,XOF
+78,Burkina Faso,Centre-sud,Guelwongo,Retail,XOF
+79,Burkina Faso,Hauts-bassins,Nieneta,Retail,XOF
+80,Burkina Faso,Boucle Du Mouhoun,Dedougou,Retail,XOF
+81,Burkina Faso,Nord,Ouahigouya,Retail,XOF
+82,Burundi,Bujumbura Mairie,Bujumbura,Retail,BIF
+83,Burundi,Gitega,Gitega,Retail,BIF
+84,Burundi,Kirundo,Kirundo,Retail,BIF
+85,Burundi,Muyinga,Muyinga,Retail,BIF
+86,Burundi,Ruyigi,Ruyigi,Retail,BIF
+87,Burundi,Ngozi,Ngozi,Retail,BIF
+88,Burundi,Bujumbura Mairie,Sogemac (central market Bujumbura),Retail,BIF
+89,Burundi,Cibitoke,Rugombo,Retail,BIF
+90,Burundi,Bubanza,Musenyi,Retail,BIF
+91,Cambodia,Kampong Chhnang,Kampong Chhnang,Retail,KHR
+92,Cambodia,Kampong Chhnang,Kampong Chhnang,Wholesale,KHR
+93,Cambodia,Kampong Cham,Kampong Cham,Wholesale,KHR
+94,Cambodia,Takeo,Takeo,Wholesale,KHR
+95,Cambodia,Siem Reap,Siem Reap,Wholesale,KHR
+96,Cambodia,Prey Veng,Prey Veng,Retail,KHR
+97,Cambodia,Prey Veng,Prey Veng,Wholesale,KHR
+98,Cambodia,Phnom Penh,Phnom Penh,Wholesale,KHR
+99,Cambodia,Kampot,Kampot,Wholesale,KHR
+100,Cambodia,Battambang,Battambang,Wholesale,KHR
+101,Cambodia,Banteay Meanchey,Banteay Meanchey,Wholesale,KHR
+102,Cambodia,Banteay Meanchey,Serei Saophoan,Retail,KHR
+103,Cambodia,Banteay Meanchey,Thma Puok,Retail,KHR
+104,Cambodia,Kampong Cham,Pha'av,Retail,KHR
+105,Cambodia,Kampong Cham,Boeung Kok,Retail,KHR
+106,Cambodia,Kampong Chhnang,Sala Lekh Pram,Retail,KHR
+107,Cambodia,Kampong Speu,Central Market (KSP),Retail,KHR
+108,Cambodia,Kampong Speu,Bat Doeng,Retail,KHR
+109,Cambodia,Kampong Thom,Kampong Thum,Retail,KHR
+110,Cambodia,Kampong Thom,Kampong Thum,Wholesale,KHR
+111,Cambodia,Kampong Thom,Kampong Chheuteal,Retail,KHR
+112,Cambodia,Kandal,S'ang,Retail,KHR
+113,Cambodia,Kandal,Ta Khmau,Retail,KHR
+114,Cambodia,Prey Veng,Chheu Kach Thmei,Retail,KHR
+115,Cambodia,Pursat,Chheu Tom,Retail,KHR
+116,Cambodia,Siem Reap,Kralanh,Retail,KHR
+117,Cambodia,Siem Reap,Psa Leu,Retail,KHR
+118,Cambodia,Otdar Meanchey,Anlong Veng,Retail,KHR
+119,Cambodia,Otdar Meanchey,Samroang,Retail,KHR
+120,Cambodia,Pursat,Central Market (PST),Retail,KHR
+121,Cambodia,Pursat,Pursat,Wholesale,KHR
+122,Cambodia,Kampong Speu,Kampong Speu,Wholesale,KHR
+123,Cambodia,Kratie,Kratie,Wholesale,KHR
+124,Cambodia,Stung Treng,Stung Treng,Retail,KHR
+125,Cambodia,Stung Treng,Stung Treng,Wholesale,KHR
+126,Cambodia,Preah Sihanouk,Preah Sihanouk,Wholesale,KHR
+127,Cambodia,Mondul Kiri,Mondul Kiri,Wholesale,KHR
+128,Cambodia,Otdar Meanchey,Oddar Meanchey,Wholesale,KHR
+129,Cambodia,Preah Vihear,Preah Vihear,Wholesale,KHR
+130,Cameroon,Nord - Ouest,Ngong,Wholesale,XAF
+131,Cameroon,Nord,Pitoa,Wholesale,XAF
+132,Cameroon,Nord,Adoumri,Wholesale,XAF
+133,Cameroon,Nord,Pintchoumba,Wholesale,XAF
+134,Cameroon,Nord,Gode,Wholesale,XAF
+135,Cameroon,Nord,Poli,Wholesale,XAF
+136,Cameroon,Nord,Guider,Wholesale,XAF
+137,Cameroon,Nord,Figuil,Wholesale,XAF
+138,Cameroon,Nord,Mayo Oulo,Wholesale,XAF
+139,Cameroon,Nord,Mbaiboum,Wholesale,XAF
+140,Cameroon,Nord,Rey Bouba,Wholesale,XAF
+141,Cameroon,Nord,Madingring,Wholesale,XAF
+142,Cameroon,ExtrOme - Nord,Kousseri,Wholesale,XAF
+143,Cameroon,ExtrOme - Nord,Logone-Birni,Wholesale,XAF
+144,Cameroon,ExtrOme - Nord,Mada,Wholesale,XAF
+145,Cameroon,Nord,Garoua,Wholesale,XAF
+146,Cape Verde,Santo Antao,Santo Antao,Retail,CVE
+147,Cape Verde,Sao Vicente,Sao Vicente,Retail,CVE
+148,Cape Verde,Santiago,Santiago,Retail,CVE
+149,Central African Republic,Bangui,Bangui,Retail,XAF
+150,Central African Republic,Ouaka,Bambari,Retail,XAF
+151,Central African Republic,Mbomou,Bangassou,Retail,XAF
+152,Central African Republic,Haute-Kotto,Bria,Retail,XAF
+153,Chad,Ouaddai,Abeche,Retail,XAF
+154,Chad,Lac,Bol,Retail,XAF
+155,Chad,Kanem,Mao,Retail,XAF
+156,Chad,Guera,Mongo,Retail,XAF
+157,Chad,Logone Oriental,Moundou,Retail,XAF
+158,Chad,Barl El Gazal,Moussoro,Retail,XAF
+159,Chad,Hadjer Lamis,Ndjamena,Retail,XAF
+160,Chad,Barh Koh,Sarh,Retail,XAF
+161,Chad,Logone Oriental,Gore,Retail,XAF
+162,Chad,Salamat,Am Timan,Retail,XAF
+163,Chad,Tandjile Ouest,Kelo,Retail,XAF
+164,Chad,Mayo-Boneye,Bongor,Retail,XAF
+165,Colombia,Cundinamarca,Bogota,Wholesale,COP

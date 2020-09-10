@@ -1,0 +1,188 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" [routerLink]="['/query4']">Years</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " [routerLink]="['/query10']">Months</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-md-12">
+      <form #QueryForm="ngForm" (ngSubmit)="onSubmit(QueryForm)">
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Search Food Average Price in All Years</h4>
+            </div>
+            <div class="col-md-4">
+              <label for="name">Country</label>
+              <select class="form-control" name="Country" #Country  (change)='onCountrySelected(Country.value)' [(ngModel)]="query.country">
+                <option value="Afghanistan">Afghanistan</option>
+                <option value="Algeria">Algeria</option>
+                <option value="Armenia">Armenia</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="Benin">Benin</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Burkina Faso">Burkina Faso</option>
+                <option value="Burundi">Burundi</option>
+                <option value="Cambodia">Cambodia</option>
+                <option value="Cameroon">Cameroon</option>
+                <option value="Cape Verde">Cape Verde</option>
+                <option value="Central African Republic">Central African Republic</option>
+                <option value="Chad">Chad</option>
+                <option value="Colombia">Colombia</option>
+
+              </select>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-4">
+              <label for="name">Food</label>
+              <select class="form-control" name="product_name" #queryRank="ngModel" [(ngModel)]="query.product_name">
+                <option *ngFor="let mongodbResult2 of mongodbResults2">{{mongodbResult2}}</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <input type="submit" value="Submit" class="btn btn-primary btn-block">
+        </div>
+      </form>
+    </div>
+    <!-- MySQL Without View-->
+    <div class="col-md-4 super-container">
+      <div class="card">
+        <div class="header">
+          <h4 class="title">MySQL</h4>
+          <p class="category">Food Average Price in All Year</p>
+        </div>
+        <div class="content table-responsive table-full-width">
+          <table class="table table-striped">
+            <thead>
+              <!-- <th style="width:28%">Date</th>
+              <th style="width:18%">Team</th>
+              <th style="width:18%">Result</th>
+              <th style="width:18%">Opponent</th>
+              <th style="width:18%">{{query.performance}}</th> -->
+              <th style="width:50%">Year</th>
+              <th style="width:50%">Average Price</th>
+
+            </thead>
+            <tbody>
+              <tr *ngFor="let mysqlResult of mysqlResults">
+                <!-- <td>{{query.date}}</td>
+                <td>{{mysqlResult.teamAbbr}}</td>-->
+                <td>{{mysqlResult.year}}</td>
+                <td>{{mysqlResult.avg_price}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- MomgoDB -->
+    <div class="col-md-4 super-container">
+      <div class="card">
+        <div class="header">
+          <h4 class="title">MongoDB</h4>
+          <p class="category">Food Average Price in All Year</p>
+        </div>
+        <div class="content table-responsive table-full-width">
+          <table class="table table-striped">
+            <thead>
+              <!-- <th style="width:28%">Date</th>
+              <th style="width:18%">Team</th>
+              <th style="width:18%">Result</th>
+              <th style="width:18%">Opponent</th>
+              <th style="width:18%">{{query.performance}}</th> -->
+              <th style="width:50%">Year</th>
+              <th style="width:50%">Average Price</th>
+            </thead>
+            <tbody>
+              <tr *ngFor="let mongodbResult of mongodbResults">
+                 <td>{{mongodbResult._id}}</td>
+                <td>{{mongodbResult.avgPrice}}</td>
+                <!--<td>{{query.rank}}</td> -->
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- Neo4j -->
+    <div class="col-md-4 super-container">
+      <div class="card">
+        <div class="header">
+          <h4 class="title">Neo4j</h4>
+          <p class="category">Food Average Price in All Year</p>
+        </div>
+        <div class="content table-responsive table-full-width">
+          <table class="table table-striped">
+            <thead>
+              <!-- <th style="width:28%">Date</th>
+              <th style="width:18%">Team</th>
+              <th style="width:18%">Result</th>
+              <th style="width:18%">Opponent</th>
+              <th style="width:18%">{{query.performance}}</th> -->
+              <th style="width:50%">Year</th>
+              <th style="width:50%">Average Price</th>
+            </thead>
+            <tbody>
+              <tr *ngFor="let neo4jResult of neo4jResults">
+                <!-- <td>{{query.date}}</td>
+                <td>{{neo4jResult.teamAbbr}}</td>
+                <td>{{query.rank}}</td> -->
+                <td>{{neo4jResult.year}}</td>
+                <td>{{neo4jResult.avg_price}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- MySQL View-->
+    <div class="col-md-4 super-container">
+      <div class="card">
+        <div class="header">
+          <h4 class="title">MySQL</h4>
+          <p class="category">Food Average Price in All Year with Materialized View:</p>
+        </div>
+        <div class="content table-responsive table-full-width">
+          <table class="table table-striped">
+            <thead>
+              <!-- <th style="width:28%">Date</th>
+              <th style="width:18%">Team</th>
+              <th style="width:18%">Result</th>
+              <th style="width:18%">Opponent</th>
+              <th style="width:18%">{{query.performance}}</th> -->
+              <th style="width:50%">Year</th>
+              <th style="width:50%">Average Price</th>
+
+            </thead>
+            <tbody>
+              <tr *ngFor="let mysqlResult2 of mysqlResults2">
+
+                <td>{{mysqlResult2.year}}</td>
+                <td>{{mysqlResult2.avg_price}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+</div>

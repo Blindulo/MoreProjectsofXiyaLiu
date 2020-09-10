@@ -1,0 +1,20 @@
+{
+  "name": "adb_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.17.1",
+    "install": "^0.12.2",
+    "mongoose": "^5.5.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "neo4j-driver": "^1.7.3"
+  }
+}

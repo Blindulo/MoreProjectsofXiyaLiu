@@ -1,0 +1,91 @@
+product_id,product_name
+1,Bread
+2,Wheat
+3,Rice (low quality)
+4,Wage (qualified labour)
+5,"Livestock (sheep, one-year-old alive female)"
+6,Fuel (diesel)
+7,Exchange rate
+8,"Wage (non-qualified labour, non-agricultural)"
+9,Rice
+10,Beans (white)
+11,Milk
+12,Potatoes
+13,Eggs
+14,Meat (chicken)
+15,Sugar
+16,Lentils
+17,Pasta
+18,Tomatoes
+19,Oil
+20,Cheese (dry)
+21,Carrots
+22,Onions
+23,Bananas
+24,Tea
+25,Fuel (petrol-gasoline)
+26,Fish (canned)
+27,Apples
+28,Milk (camel)
+29,Meat (camel)
+30,Tea (sahm)
+31,Wheat flour
+32,Oil (vegetable)
+33,Rice (white)
+34,Meat (pork)
+35,Meat (beef)
+36,Cabbage
+37,Apples (red)
+38,Cucumbers (greenhouse)
+39,Fuel (kerosene)
+40,Fish (fresh)
+41,Bread (high grade flour)
+42,Bread (first grade flour)
+43,Rice (coarse)
+44,Lentils (masur)
+45,Oil (palm)
+46,Rice (imported)
+47,Sorghum
+48,Maize (white)
+49,Cassava meal (gari)
+50,Maize
+51,Millet
+52,"Meat (beef, chops with bones)"
+53,"Meat (chicken, whole)"
+54,Noodles (short)
+55,Potatoes (Dutch)
+56,"Potatoes (Irish, imilla)"
+57,Rice (estaquilla)
+58,Rice (long grain)
+59,Bread (wheat)
+60,Rice (good quality)
+61,Rice (carolina 2da)
+62,Rice (medium grain)
+63,Potatoes (black)
+64,Beans (niebe)
+65,Beans
+66,Cassava flour
+67,Sweet potatoes
+68,"Rice (imported, Tanzanian)"
+69,"Rice (high quality, local)"
+70,"Rice (low quality, local)"
+71,"Rice (mixed, low quality)"
+72,Wage (non-qualified labour)
+73,"Meat (pork, with fat)"
+74,Rice (local)
+75,Groundnuts (shelled)
+76,Sorghum (white)
+77,Sesame
+78,Peas (yellow)
+79,Soybeans
+80,Sorghum (red)
+81,Cassava (cossette)
+82,Oil (groundnut)
+83,"Livestock (sheep, medium-sized castrated male)"
+84,"Livestock (goat, medium-sized castrated male)"
+85,Sorghum (berbere)
+86,Maize flour
+87,Beans (red)
+88,Garlic
+89,Onions (red)
+90,Onions (white)

@@ -1,0 +1,221 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link " [routerLink]="['/query2']">Countries</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " [routerLink]="['/query6']">Localities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" [routerLink]="['/query3']">Market Types</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link " [routerLink]="['/query11']">Markets</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-12">
+      <form #QueryForm="ngForm" (ngSubmit)="onSubmit(QueryForm)">
+
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-12">
+              <h4>Search Food Highest Price in Each Market Type in Each Country</h4>
+            </div>
+            <div class="col-md-4">
+              <label for="name">Food</label>
+              <select class="form-control" name="product_name" #queryRank="ngModel" [(ngModel)]="query.product_name">
+                <option value="Apples">Apples</option>
+                <option value="Apples (red)">Apples (red)</option>
+                <option value="Bananas">Bananas</option>
+                <option value="Beans">Beans</option>
+                <option value="Beans (niebe)">Beans (niebe)</option>
+                <option value="Beans (red)">Beans (red)</option>
+                <option value="Beans (white)">Beans (white)</option>
+                <option value="Bread">Bread</option>
+                <option value="Bread (first grade flour)">Bread (first grade flour)</option>
+                <option value="Bread (high grade flour)">Bread (high grade flour)</option>
+                <option value="Bread (wheat)">Bread (wheat)</option>
+                <option value="Cabbage">Cabbage</option>
+                <option value="Carrots">Carrots</option>
+                <option value="Cassava flour">Cassava flour</option>
+                <option value="Cassava meal (gari)">Cassava meal (gari)</option>
+                <option value="Cassava (cossette)">Cassava (cossette)</option>
+                <option value="Cheese (dry)">Cheese (dry)</option>
+                <option value="Cucumbers (greenhouse)">Cucumbers (greenhouse)</option>
+                <option value="Eggs">Eggs</option>
+                <option value="Exchange rate">Exchange rate</option>
+                <option value="Fish (canned)">Fish (canned)</option>
+                <option value="Fish (fresh)">Fish (fresh)</option>
+                <option value="Fuel (diesel)">Fuel (diesel)</option>
+                <option value="Fuel (kerosene)">Fuel (kerosene)</option>
+                <option value="Fuel (petrol-gasoline)">Fuel (petrol-gasoline)</option>
+                <option value="Garlic">Garlic</option>
+                <option value="Groundnuts (shelled)">Groundnuts (shelled)</option>
+                <option value="Lentils">Lentils</option>
+                <option value="Lentils (masur)">Lentils (masur)</option>
+                <option value="Livestock (goat, medium-sized castrated male)">Livestock (goat, medium-sized castrated
+                  male)</option>
+                <option value="Livestock (sheep, medium-sized castrated male)">Livestock (sheep, medium-sized castrated
+                  male)</option>
+                <option value="Livestock (sheep, one-year-old alive female)">Livestock (sheep, one-year-old alive
+                  female)</option>
+                <option value="Maize">Maize</option>
+                <option value="Maize flour">Maize flour</option>
+                <option value="Maize (white)">Maize (white)</option>
+                <option value="Meat (beef)">Meat (beef)</option>
+                <option value="Meat (beef, chops with bones)">Meat (beef, chops with bones)</option>
+                <option value="Meat (camel)">Meat (camel)</option>
+                <option value="Meat (chicken)">Meat (chicken)</option>
+                <option value="Meat (chicken, whole)">Meat (chicken, whole)</option>
+                <option value="Meat (pork)">Meat (pork)</option>
+                <option value="Meat (pork, with fat)">Meat (pork, with fat)</option>
+                <option value="Milk">Milk</option>
+                <option value="Milk (camel)">Milk (camel)</option>
+                <option value="Millet">Millet</option>
+                <option value="Noodles (short)">Noodles (short)</option>
+                <option value="Oil">Oil</option>
+                <option value="Oil (groundnut)">Oil (groundnut)</option>
+                <option value="Oil (palm)">Oil (palm)</option>
+                <option value="Oil (vegetable)">Oil (vegetable)</option>
+                <option value="Onions">Onions</option>
+                <option value="Onions (red)">Onions (red)</option>
+                <option value="Onions (white)">Onions (white)</option>
+                <option value="Pasta">Pasta</option>
+                <option value="Peas (yellow)">Peas (yellow)</option>
+                <option value="Potatoes">Potatoes</option>
+                <option value="Potatoes (black)">Potatoes (black)</option>
+                <option value="Potatoes (Dutch)">Potatoes (Dutch)</option>
+                <option value="Potatoes (Irish, imilla)">Potatoes (Irish, imilla)</option>
+                <option value="Rice">Rice</option>
+                <option value="Rice (carolina 2da)">Rice (carolina 2da)</option>
+                <option value="Rice (coarse)">Rice (coarse)</option>
+                <option value="Rice (estaquilla)">Rice (estaquilla)</option>
+                <option value="Rice (good quality)">Rice (good quality)</option>
+                <option value="Rice (high quality, local)">Rice (high quality, local)</option>
+                <option value="Rice (imported)">Rice (imported)</option>
+                <option value="Rice (imported, Tanzanian)">Rice (imported, Tanzanian)</option>
+                <option value="Rice (local)">Rice (local)</option>
+                <option value="Rice (long grain)">Rice (long grain)</option>
+                <option value="Rice (low quality)">Rice (low quality)</option>
+                <option value="Rice (low quality, local)">Rice (low quality, local)</option>
+                <option value="Rice (medium grain)">Rice (medium grain)</option>
+                <option value="Rice (mixed, low quality)">Rice (mixed, low quality)</option>
+                <option value="Rice (white)">Rice (white)</option>
+                <option value="Sesame">Sesame</option>
+                <option value="Sorghum">Sorghum</option>
+                <option value="Sorghum (berbere)">Sorghum (berbere)</option>
+                <option value="Sorghum (red)">Sorghum (red)</option>
+                <option value="Sorghum (white)">Sorghum (white)</option>
+                <option value="Soybeans">Soybeans</option>
+                <option value="Sugar">Sugar</option>
+                <option value="Sweet potatoes">Sweet potatoes</option>
+                <option value="Tea">Tea</option>
+                <option value="Tea (sahm)">Tea (sahm)</option>
+                <option value="Tomatoes">Tomatoes</option>
+                <option value="Wage (non-qualified labour)">Wage (non-qualified labour)</option>
+                <option value="Wage (non-qualified labour, non-agricultural)">Wage (non-qualified labour,
+                  non-agricultural)</option>
+                <option value="Wage (qualified labour)">Wage (qualified labour)</option>
+                <option value="Wheat">Wheat</option>
+                <option value="Wheat flour">Wheat flour</option>
+
+              </select>
+              <!--    <label for="name">Player Name</label>
+                <input type="text" class="form-control" name="player" #salespersonName="ngModel"
+                  [(ngModel)]="query.player">-->
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-2">
+          <input type="submit" value="Submit" class="btn btn-primary btn-block">
+        </div>
+      </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- MySQL -->
+    <div class="col-md-4 super-container">
+      <div class="card">
+        <div class="header">
+          <h4 class="title">MySQL</h4>
+          <p class="category">Food Highest Price in Each Market Type in Each Country</p>
+        </div>
+        <div class="content table-responsive table-full-width">
+          <table class="table table-striped">
+            <thead>
+              <th style="width:20%">Country</th>
+              <th style="width:40%">Market Type</th>
+              <!-- <th style="width:25%">{{query.performance}}</th> -->
+              <th style="width:40%">Highest Price</th>
+            </thead>
+            <tbody>
+              <tr *ngFor="let mysqlResult of mysqlResults">
+                <td>{{mysqlResult.country}}</td>
+                <td>{{mysqlResult.market_type}}</td>
+                <td>{{mysqlResult.max_price}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- MomgoDB -->
+    <div class="col-md-4 super-container">
+      <div class="card">
+        <div class="header">
+          <h4 class="title">MongoDB</h4>
+          <p class="category">Food Highest Price in Each Market Type in Each Country</p>
+        </div>
+        <div class="content table-responsive table-full-width">
+          <table class="table table-striped">
+            <thead>
+              <th style="width:20%">Country</th>
+              <th style="width:40%">Market Type</th>
+              <!-- <th style="width:25%">{{query.performance}}</th> -->
+              <th style="width:40%">Highest Price</th>
+            </thead>
+            <tbody>
+              <tr *ngFor="let mongodbResult of mongodbResults">
+                <td>{{mongodbResult._id.country}}</td>
+                <td>{{mongodbResult._id.market_type}}</td>
+                <td>{{mongodbResult.maxPrice}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <!-- Neo4j -->
+    <div class="col-md-4 super-container">
+      <div class="card">
+        <div class="header">
+          <h4 class="title">Neo4j</h4>
+          <p class="category">Food Highest Price in Each Market Type in Each Country</p>
+        </div>
+        <div class="content table-responsive table-full-width">
+          <table class="table table-striped">
+            <thead>
+              <th style="width:20%">Country</th>
+              <th style="width:40%">Market Type</th>
+              <th style="width:40%">Highest Price</th>
+            </thead>
+            <tbody>
+              <tr *ngFor="let neo4jResult of neo4jResults">
+                <td>{{neo4jResult.country}}</td>
+                <td>{{neo4jResult.market_type}}</td>
+                <td>{{neo4jResult.max_price}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

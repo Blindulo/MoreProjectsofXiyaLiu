@@ -1,0 +1,41 @@
+<div class="sidebar" data-background-color="white" data-active-color="danger">
+  <div class="sidebar-wrapper">
+    <div class="logo">
+      <a  class="simple-text">
+        <!-- <img src="../../../assets/img/icon.png" style="height:66px;"> -->
+        <img src="../../../assets/img/logo.png" style="height:80px;">
+      </a>
+    </div>
+    <ul class="nav">
+      <li (click)="changeColor0()">
+        <a id="cs0" [routerLink]="['/query1']" class="nav-link">
+          <!-- <i class="fa fa-list-ol"></i> -->
+          
+        <i class="fa fa-leaf"></i>
+        FOOD
+      </a>
+        
+      </li>
+      <li *ngIf="isSalesperson" (click)="changeColor1()">
+        <a id="cs1" [routerLink]="['/query4']" class="nav-link">
+          <i class="fa fa-clock-o"></i>
+          TIME
+        </a>
+      </li>
+      <li *ngIf="isStoreManager" (click)="changeColor2()">
+        <a id="cs2" [routerLink]="['/query2']" class="nav-link">
+         
+        <i class="fa fa-globe"></i>
+          PLACE
+        </a>
+      </li>
+
+      <!-- <li *ngIf="isRegionManager" class="" (click)="changeColor3()">
+        <a id="cs3" [routerLink]="['/query7']" class="nav-link">
+          <i class="fa fa-trophy"></i>
+          EASTERN / WESTERN
+        </a>
+      </li> -->
+    </ul>
+  </div>
+</div>

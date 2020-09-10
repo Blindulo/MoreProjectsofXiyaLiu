@@ -1,0 +1,123 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    background-color: white;
+}
+
+.LogoDiv{
+    width: 140px;
+    height: 80px;
+    position: absolute;
+    background-size: cover;
+    background-image: url("../web/image/Logo.png");
+}
+
+.TopBar{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    background-color: lightpink;
+}
+
+.BarButton{
+    height: 20px;
+    width: 80px;
+    position: absolute;
+    top:10px;
+    left: 200px;
+    color: white;
+    border: 3px solid white;
+    background-color: lightpink;
+    border-radius: 10px;
+    font-family: "Microsoft Sans Serif";
+    font-size: 15px;
+    padding-top: 5px;
+    text-align: center;
+}
+.BarButton:hover{
+    filter: brightness(0.8);
+}
+
+.SearchInput{
+    width: 1000px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    left: 150px;
+    border: 1px solid lightpink;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 15px;
+    color: lightgrey;
+}
+
+.SortDiv{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 28px;
+    left: 1100px;
+    border: 1px solid white;
+    font-size: 15px;
+    padding-left: 10px;
+    color: dimgrey;
+    outline: none;
+}
+
+.SearchInput:focus {
+    outline:none;
+    border: 1px solid lightpink;
+    color: black;
+    box-shadow: 0px 0px 5px white;
+}
+
+.ProductDiv{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid lightpink;
+    float: left;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.ProductDiv:hover{
+    box-shadow: 0px 0px 20px lightpink;
+}
+
+.ProductPhotoDiv{
+    width: 400px;
+    height: 400px;
+    border: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ProductNameDiv{
+    width: 300px;
+    height: 40px;
+    border:  none;
+    margin-left: 50px;
+    color: lightpink;
+    text-align: center;
+    font-size: 1.7vw;
+    padding-top: 5px;
+}
+.ProductPriceDiv{
+    width: 300px;
+    height: 30px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 25px;
+    color: lightpink;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.AllProductDiv{
+    width: 100%;
+    background-color: red;
+}
