@@ -1,6 +1,6 @@
 # ProjectsofXiyaLiu
 There are some projects I took part in.
-<br/><br/><br/>
+<br/>
 ## Advanced Database Management Global Food Big Data CRUD
 Developed all front-end work including module.ts and components.ts/ .css/ .html by using Angular and Bootstrap<br/>
 Communicated with MongoDB, MySQL anxsd Neo4j by using HTTP to compare the efficiency of the three database tools<br/>
