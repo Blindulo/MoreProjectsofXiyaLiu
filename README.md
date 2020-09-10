@@ -1,22 +1,22 @@
 # ProjectsofXiyaLiu
 There are some projects I took part in.
-
+<br/><br/><br/>
 ## Advanced Database Management Global Food Big Data CRUD
 Developed all front-end work including module.ts and components.ts/ .css/ .html by using Angular and Bootstrap<br/>
 Communicated with MongoDB, MySQL anxsd Neo4j by using HTTP to compare the efficiency of the three database tools<br/>
 ![image](https://github.com/Blindulo/ProjectsofXiyaLiu/blob/master/images/Screen%20Shot%202020-09-10%20at%2012.19.05%20PM.png)
-<br/>
+<br/><br/><br/>
 ## geeks4geeks-finalproject
 URL: https://glitch.com/~geeks4geeks-finalproject<br/>
 Created pages for admin and designed the UI for the course selection/deletion features<br/>
 Used React, node.js, CSS, Bootstrap<br/>
 ![image](https://github.com/Blindulo/ProjectsofXiyaLiu/blob/master/images/Screen%20Shot%202020-09-10%20at%2012.07.39%20PM.png)
-<br/>
+<br/><br/><br/>
 ## Database-System-for-E-Commerce
 Used HTML, JavaScript, jQuery and CSS to build the webpages<br/>
 Upload file and connect with Back-end with AJAX<br/>
 ![image](https://github.com/yiz132/Database-System-for-E-Commerce/blob/master/DBProject/Screenshots/sort_by_category_AND_price.png)
-<br/>
+<br/><br/><br/>
 ## Japanese learning and teaching websites
 URL: http://blindulo.uusama.com/LearnerPage.html<br/>
 Full stack developed full-functional learning and teaching websites for Chinese<br/>
