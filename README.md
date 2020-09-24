@@ -21,7 +21,7 @@ Upload file and connect with Back-end with AJAX<br/>
 <br/><br/><br/>
 ## Japanese learning and teaching websites
 URL: http://blindulo.uusama.com/LearnerPage.html<br/>
-Full stack developed full-functional learning and teaching websites for Chinese<br/>
+Developed a full-stack learning and teaching websites for Chinese<br/>
 Designed and developed Frontend of websites such as Calendar, rotated div and scalable sidebar by applying HTML5,CSS3, JavaScript, AJAX, jQuery and Animate intelligently to make UI and UE friendly and integrated<br/>
 Accomplished Backgrounds functions like Date changing, API call and streaming media reading by using Json, PHP, MySQL and Apache<br/>
 ![image](https://github.com/Blindulo/ProjectsofXiyaLiu/blob/master/images/Screen%20Shot%202020-09-10%20at%2012.15.38%20PM.png)
