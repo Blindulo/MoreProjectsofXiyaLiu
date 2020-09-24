@@ -20,7 +20,7 @@ Upload file and connect with Back-end with AJAX<br/>
 ![image](https://github.com/Blindulo/ProjectsofXiyaLiu/blob/master/Database-System-for-E-Commerce-master/DBProject/Screenshots/Sort_BY.png)
 <br/><br/><br/>
 ## Japanese learning and teaching websites
-URL: http://blindulo.uusama.com/LearnerPage.html<br/>
+URL: http://blindulo.uusama.com/LearnerPage.html (Tested on Chrome)<br/>
 Developed a full-stack learning and teaching websites for Chinese<br/>
 Designed and developed Frontend of websites such as Calendar, rotated div and scalable sidebar by applying HTML5,CSS3, JavaScript, AJAX, jQuery and Animate intelligently to make UI and UE friendly and integrated<br/>
 Accomplished Backgrounds functions like Date changing, API call and streaming media reading by using Json, PHP, MySQL and Apache<br/>
