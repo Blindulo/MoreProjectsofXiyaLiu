@@ -1,6 +1,12 @@
 # ProjectsofXiyaLiu
 There are some projects I took part in.
 <br/>
+## CourseMIRROR
+Implementing cross-browser compatibility (from Chrome to other browsers)<br/>
+Improving the user experience of the application, specifically lecture creation, course creation, and analytics visualization<br/>
+Solving error report in daily life<br/>
+![image](https://github.com/Blindulo/ProjectsofXiyaLiu/blob/master/images/Screen%20Shot%202020-10-10%20at%2010.46.01%20PM.png)
+<br/><br/><br/>
 ## Advanced Database Management Global Food Big Data CRUD
 My code: https://github.com/Blindulo/ProjectsofXiyaLiu/tree/master/advanced_DB_project_rev/adb_frontend/src/app <br/>
 Developed all front-end work including module.ts and components.ts/ .css/ .html by using Angular and Bootstrap<br/>
