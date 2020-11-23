@@ -2,9 +2,10 @@
 There are some projects I took part in.
 <br/>
 ## CourseMIRROR
-Implementing cross-browser compatibility (from Chrome to other browsers)<br/>
-Improving the user experience of the application, specifically lecture creation, course creation, and analytics visualization<br/>
-Solving error report in daily life<br/>
+Developed and maintaining a website used by instructors to analyze reflection words from students with node.js + express, MongoDB <br>
+Made the website cross browser compatible in chrome, safari and mobile browsers<br>
+Improved the UI and UE including lecture creation function, course creation function, and analytics visualization<br>
+
 ![image](https://github.com/Blindulo/ProjectsofXiyaLiu/blob/master/images/Screen%20Shot%202020-10-10%20at%2010.46.01%20PM.png)
 <br/><br/><br/>
 ## Advanced Database Management Global Food Big Data CRUD
