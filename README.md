@@ -2,16 +2,18 @@
 There are some projects I took part in.
 <br/>
 ## CourseMIRROR
-Developed and maintaining a website used by instructors to analyze reflection words from students with node.js + express, MongoDB <br>
-Made the website cross browser compatible in chrome, safari and mobile browsers<br>
-Improved the UI and UE including lecture creation function, course creation function, and analytics visualization<br>
+Full stack developed and maintaining a website used by instructors to analyze reflection words from students with node.js + express, MongoDB  <br>
+Made the website cross-browser compatible in chrome, safari and mobile browsers <br>
+Improved the UI and UE including lecture creation function, course creation function, and analytics visualization <br>
+
 
 ![image](https://github.com/Blindulo/ProjectsofXiyaLiu/blob/master/images/Screen%20Shot%202020-10-10%20at%2010.46.01%20PM.png)
 <br/><br/><br/>
 ## Advanced Database Management Global Food Big Data CRUD
 My code: https://github.com/Blindulo/ProjectsofXiyaLiu/tree/master/advanced_DB_project_rev/adb_frontend/src/app <br/>
-Developed all front-end work including module.ts and components.ts/ .css/ .html by using Angular and Bootstrap<br/>
-Communicated with MongoDB, MySQL anxsd Neo4j by using HTTP to compare the efficiency of the three database tools<br/>
+Compared the efficiencies of the three databases (MongoDB, MySQL and Neo4j) when searching data with different filters <br/>
+Developed all front-end work by using Angular framework with HTML, TypeScript and HTTP<br/>
+
 ![image](https://github.com/Blindulo/ProjectsofXiyaLiu/blob/master/images/Screen%20Shot%202020-09-10%20at%2012.19.05%20PM.png)
 <br/><br/><br/>
 ## geeks4geeks-finalproject
@@ -27,8 +29,11 @@ Upload file and connect with Back-end with AJAX<br/>
 ![image](https://github.com/Blindulo/ProjectsofXiyaLiu/blob/master/Database-System-for-E-Commerce-master/DBProject/Screenshots/Sort_BY.png)
 <br/><br/><br/>
 ## Japanese learning and teaching websites
-URL: http://blindulo.uusama.com/LearnerPage.html (Tested on Chrome)<br/>
-Developed a full-stack learning and teaching websites for Chinese<br/>
-Designed and developed Frontend of websites such as Calendar, rotated div and scalable sidebar by applying HTML5,CSS3, JavaScript, AJAX, jQuery and Animate intelligently to make UI and UE friendly and integrated<br/>
-Accomplished Backgrounds functions like Date changing, API call and streaming media reading by using Json, PHP, MySQL and Apache<br/>
+Project URL: http://blindulo.uusama.com/LearnerPage.html (Tested in Chrome. The server is not in America. Running at the first time will be a little slow)<br/>
+Developed full-stack learning and teaching websites for Japanese learners<br/>
+Implemented functions including learning the Japanese syllabary table, practicing Japanese listening and speaking, reading textbooks uploaded by teachers, reciting Japanese vocabulary and chatting room<br/>
+Enable teachers could assign homework to learners, grade and commit the completed homework from learners, learners could manage and do homework by themselves<br/>
+Designed and developed Frontend of websites such as Calendar, rotated div and scalable sidebar by applying HTML5, CSS3, JavaScript, AJAX, jQuery and Animate intelligently to make UI and UE friendly and integrated<br/>
+Accomplished Backgrounds functions like Date changing, API call and streaming media reading by using JSON, PHP, MySQL and Apache framework<br/>
+
 ![image](https://github.com/Blindulo/ProjectsofXiyaLiu/blob/master/images/Screen%20Shot%202020-09-10%20at%2012.15.38%20PM.png)
