@@ -7,7 +7,7 @@ There are some projects I took part in.
 
 
 
-![image](https://raw.githubusercontent.com/Blindulo/MoreProjectsofXiyaLiu/master/images/Screen%20Shot%202021-01-27%20at%205.09.04%20PM.png)
+![image](https://raw.githubusercontent.com/Blindulo/MoreProjectsofXiyaLiu/master/images/dynamicMaps.gif)
 <br/><br/><br/>
 
 ## Leagues of Legends Games Result Prediction
