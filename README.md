@@ -1,6 +1,15 @@
 # More Projects of Xiya Liu
 There are some projects I took part in.
 <br/>
+## The Tendency in the Academic World
+•	Used
+•	Built
+
+
+
+![image](https://raw.githubusercontent.com/Blindulo/MoreProjectsofXiyaLiu/master/images/Screen%20Shot%202021-01-27%20at%205.09.04%20PM.png)
+<br/><br/><br/>
+
 ## Leagues of Legends Games Result Prediction
 •	Used Logistic Regression, KNearest-neighbors, NaïveBayes, Clustering analysis to analyze data with Python<br/>
 •	Built and optimized three logistic regression models with linear additive terms, pair-wise interaction and all 4-way interactions to predict the result of LOL games at 2 stages (Ban & Pick phase and the first 15 minutes) of games<br/>
