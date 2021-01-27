@@ -7,7 +7,7 @@ There are some projects I took part in.
 
 
 
-![image](https://github.com/Blindulo/ProjectsofXiyaLiu/blob/master/images/Screen%20Shot%202020-10-10%20at%2010.46.01%20PM.png)
+![image](https://raw.githubusercontent.com/Blindulo/MoreProjectsofXiyaLiu/master/images/Screen%20Shot%202021-01-27%20at%205.09.04%20PM.png)
 <br/><br/><br/>
 
 ## CourseMIRROR
