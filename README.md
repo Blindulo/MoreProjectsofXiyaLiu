@@ -1,4 +1,4 @@
-# ProjectsofXiyaLiu
+# More Projects of Xiya Liu
 There are some projects I took part in.
 <br/>
 ## CourseMIRROR
