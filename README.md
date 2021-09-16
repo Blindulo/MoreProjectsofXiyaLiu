@@ -23,7 +23,7 @@ There are some projects I took part in.
 • Technology: JavaScript, HTML5, CSS3, AJAX, PHP, MySQL and Apache framework<br/>
 ![image](https://github.com/Blindulo/ProjectsofXiyaLiu/blob/master/images/Screen%20Shot%202020-09-10%20at%2012.15.38%20PM.png)
 <br/><br/><br/>
-## Personal Website
+## Personal Website (developing...)
 • URL: https://aboutxiya.gatsbyjs.io/ <br/>
 • Developing my personal website in React(Gatsby), JavaScript(JSX), HTML5, CSS3.<br/>
 ![image](https://github.com/Blindulo/MoreProjectsofXiyaLiu/blob/master/images/Screen%20Shot%202021-09-16%20at%2032211%20PM.png)
