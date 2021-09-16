@@ -25,7 +25,8 @@ There are some projects I took part in.
 <br/><br/><br/>
 ## Personal Website (developing...)
 • URL: https://aboutxiya.gatsbyjs.io/ <br/>
-• Developing my personal website in React(Gatsby), JavaScript(JSX), HTML5, CSS3.<br/>
+• Developing and designed my personal website. All the pictures, icons, characters are created by me. ^-^
+• Technology: React(Gatsby), JavaScript(JSX), HTML5, CSS3.<br/>
 ![image](https://github.com/Blindulo/MoreProjectsofXiyaLiu/blob/master/images/Screen%20Shot%202021-09-16%20at%2032211%20PM.png)
 <br/><br/><br/>
 ## Leagues of Legends Games Result Prediction
