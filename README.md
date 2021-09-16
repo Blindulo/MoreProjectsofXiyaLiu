@@ -13,7 +13,7 @@ There are some projects I took part in.
 • Test Account: lecturer@test.com Password: 12345678</br>
 
 
-![image](https://github.com/Blindulo/ProjectsofXiyaLiu/blob/master/images/Screen%20Shot%202020-10-10%20at%2010.46.01%20PM.png)
+![image](https://github.com/Blindulo/MoreProjectsofXiyaLiu/blob/master/images/Screen%20Shot%202021-09-16%20at%2032155%20PM.png)
 <br/><br/><br/>
 
 
